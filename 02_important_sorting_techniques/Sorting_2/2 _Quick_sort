@@ -1,0 +1,33 @@
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    
+    pivot = arr[-1] #use last element as pivot
+    left = []
+    right = []
+    equal = []
+
+    for num in arr :
+        if num < pivot:
+            left.append(num)
+        elif num > pivot:
+            right.append(num)
+        else:
+            equal.append(num) # to handle duplicated 
+
+    return quick_sort(left) + equal + quick_sort(right)            
+  
+  
+  
+examples = [
+    [9, 3, 7, 6, 2, 10],
+    [],
+    [1],
+    [5, 5, 5, 5],
+    [9, 7, 5, 3, 1],
+    [1, 2, 3, 4, 5],
+]
+
+for ex in examples:
+    print(f"Original: {ex} → Sorted: {quick_sort(ex)}")
+
