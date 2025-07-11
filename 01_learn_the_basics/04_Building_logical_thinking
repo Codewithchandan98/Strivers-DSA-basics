@@ -1,0 +1,95 @@
+# ================================================
+# 1. Right-Angled Triangle Pattern
+# Input: n = 4
+# Output:
+# *
+# * *
+# * * *
+# * * * *
+# ================================================
+
+n = 4
+print("Right-Angled Triangle Pattern")
+for i in range(1, n + 1):
+    print('* ' * i)
+print("\n")
+
+# ================================================
+# 2. Number Triangle Pattern
+# Input: n = 5
+# Output:
+# 1
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5
+# ================================================
+
+n = 5
+print("Number Triangle Pattern")
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print(j, end=' ')
+    print()
+print("\n")
+
+# ================================================
+# 3. Inverted Star Triangle
+# Input: n = 5
+# Output:
+# * * * * *
+# * * * *
+# * * *
+# * *
+# *
+# ================================================
+
+n = 5
+print("Inverted Star Triangle")
+for i in range(n, 0, -1):
+    print('* ' * i)
+print("\n")
+
+# ================================================
+# 4. Pyramid Pattern
+# Input: n = 5
+# Output:
+#     *    
+#    * *   
+#   * * *  
+#  * * * * 
+# * * * * *
+# ================================================
+
+n = 5
+print("Pyramid Pattern")
+for i in range(1, n + 1):
+    print(' ' * (n - i) + '* ' * i)
+print("\n")
+
+# ================================================
+# 5. Diamond Pattern
+# Input: n = 5
+# Output:
+#     *    
+#    * *   
+#   * * *  
+#  * * * * 
+# * * * * *
+#  * * * * 
+#   * * *  
+#    * *   
+#     *    
+# ================================================
+
+n = 5
+print("Diamond Pattern")
+# Upper half
+for i in range(1, n + 1):
+    print(' ' * (n - i) + '* ' * i)
+# Lower half
+for i in range(n - 1, 0, -1):
+    print(' ' * (n - i) + '* ' * i)
+print("\n")
+
+# ==========
