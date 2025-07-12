@@ -1,0 +1,74 @@
+)
+📌 1. Understanding Time Complexity
+Definition:
+Time Complexity represents the amount of time an algorithm takes to run, as a function of the size of its input.
+
+Why it matters:
+
+Helps us compare algorithms regardless of hardware
+
+Determines scalability of your solution
+
+⚙️ Common Time Complexities:
+Time Complexity	Name	Example
+O(1)	Constant Time	Accessing an array element arr[i]
+O(log N)	Logarithmic Time	Binary Search
+O(N)	Linear Time	Traversing an array
+O(N log N)	Linearithmic Time	Merge Sort, Quick Sort (avg case)
+O(N²)	Quadratic Time	Nested loops (e.g., Bubble Sort)
+O(2^N)	Exponential Time	Recursive Fibonacci, Subset generation
+O(N!)	Factorial Time	Solving permutations (e.g., TSP)
+
+📌 2. Best, Worst & Average Case
+Best Case: Minimum time taken (e.g., first element match in linear search)
+
+Worst Case: Maximum time taken (e.g., last element match or not present)
+
+Average Case: Expected time over all inputs
+
+💡 Most commonly, worst-case time complexity is analyzed in interviews.
+
+🧠 How to Calculate Time Complexity:
+💡 Look at Loops:
+cpp
+Copy
+Edit
+for (int i = 0; i < n; i++) {       // O(n)
+    cout << i;
+}
+cpp
+Copy
+Edit
+for (int i = 0; i < n; i++) {       // O(n^2)
+    for (int j = 0; j < n; j++) {
+        cout << i << j;
+    }
+}
+💡 Look at Recursive Calls:
+cpp
+Copy
+Edit
+void func(int n) {
+    if (n == 1) return;
+    func(n / 2);     // O(log n)
+}
+cpp
+Copy
+Edit
+void fib(int n) {
+    if (n <= 1) return n;
+    return fib(n-1) + fib(n-2);   // O(2^n)
+}
+⏱ Space Complexity vs Time Complexity:
+Time Complexity: How fast it runs
+
+Space Complexity: How much memory it consumes
+
+✅ Tips for Interviews:
+Focus on worst-case
+
+Use Big-O notation
+
+Practice identifying time from code (especially loops & recursion)
+
+✅
