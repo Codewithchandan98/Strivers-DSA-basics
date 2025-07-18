@@ -1,0 +1,15 @@
+Now convert the above explanation and solutions into a clean and 
+structured markdown-style note suitable for pushing to GitHub.
+
+Include:
+
+- Problem title and description
+- Sample input/output
+- Edge cases
+- Brute force, better, and optimal approaches:
+    - Add headings for each
+    - For brute and better: write code in Python and **comment out the entire code block**
+    - For optimal: write a short explanation, clean Python code (not commented), and run/test cases
+- A table comparing time and space complexity of all approaches
+- Use markdown formatting with headers, code blocks, and bullet points
+- Keep it clean and revision-friendly like a personal DSA notebook

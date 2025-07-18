@@ -1,0 +1,15 @@
+"Give me the most complete explanation for the problem [  ]", 
+assuming I’m preparing for top product-based companies.
+
+"Break it down step-by-step with:",
+"- Clear problem understanding and examples",
+"- Key edge cases to consider",
+"- Detailed explanation of brute force, better (if applicable), and optimal solutions",
+"- Clean and beginner-friendly Python code for each approach (with comments)",
+"- Clear input/output examples and dry runs (if needed)",
+"- Time and space complexity analysis table for all approaches",
+
+"Make sure:",
+"- Code uses standard Python libraries only",
+"- Edge cases are handled properly",
+"- Solutions are interview-ready and readable"
