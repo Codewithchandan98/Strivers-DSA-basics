@@ -78,16 +78,16 @@
 #     return result
 
 
+
 # ✅ Optimal Approach (Single Pass Two-Pointer):
 # ✔️ Explanation:
 # Traverse nums once
 
-# Use:
 
 # pos_idx = 0 for placing positive numbers at even indices
 
+# Use:
 # neg_idx = 1 for placing negative numbers at odd indices
-
 # Store result in a new list of same length
 
 # 🧾 Python Code:
