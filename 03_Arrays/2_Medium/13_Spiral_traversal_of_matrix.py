@@ -4,8 +4,6 @@
 
 ## 📝 Problem Description
 
-# Given an `m x n` matrix, return all elements of the matrix in **spiral order**, starting from the top-left element and moving **clockwise** inwards.
-
 
 ## ⚠️ Edge Cases :
 
