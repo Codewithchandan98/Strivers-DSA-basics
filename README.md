@@ -1,7 +1,7 @@
 # 🚀 Striver A2Z DSA Preparation in Python – Target: SDE-2 Role
 
 Welcome to my DSA preparation journey using **Striver’s A2Z Sheet**, implemented entirely in **Python**.  
-🎯 **Goal**: Crack **SDE-2** roles at top product/fintech companies paying ₹25–40 LPA+ by building solid DSA + problem-solving depth.
+🎯 **Goal**: Crack **SDE-2** roles at top product/fintech companies by building solid DSA + problem-solving depth.
 
 ---
 
